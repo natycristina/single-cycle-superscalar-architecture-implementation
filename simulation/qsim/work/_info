@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Fabio Furlan\Documents\IC-2025\Superescalar\simulation\qsim
+vtop_dual
+Z1 !s100 c9NKJRQP:7C8X:jEDK@Bl0
+Z2 I@[RN9N<;@e^:Jk8[P=YjA3
+Z3 V8OROB4Onl1bMHzd9k9Bc<2
+Z4 dC:\Users\Fabio Furlan\Documents\IC-2025\RISC-V- Superescalar\simulation\qsim
+Z5 w1773353325
+Z6 8Risc-V-Superescalar.vo
+Z7 FRisc-V-Superescalar.vo
+L0 31
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -work|work|Risc-V-Superescalar.vo|
+Z10 o-work work -O0
+!i10b 1
+!s85 0
+Z11 !s108 1773353326.771000
+Z12 !s107 Risc-V-Superescalar.vo|
+!s101 -O0
+vtop_dual_vlg_check_tst
+!i10b 1
+Z13 !s100 hfken:bjJ^6MXULVNM;[C2
+Z14 IB9o1YmbCFfJN=iMoQK5=H2
+Z15 Vch7imlmdUVV?bRI0ek@Z`0
+R4
+Z16 w1773353319
+Z17 8Risc-V-Superescalar.vt
+Z18 FRisc-V-Superescalar.vt
+L0 59
+R8
+r1
+!s85 0
+31
+Z19 !s108 1773353329.349000
+Z20 !s107 Risc-V-Superescalar.vt|
+Z21 !s90 -work|work|Risc-V-Superescalar.vt|
+!s101 -O0
+R10
+vtop_dual_vlg_sample_tst
+!i10b 1
+Z22 !s100 UMI^24jB9H[nH6V64JPlA1
+Z23 ISiAV4T];??n0bkk=ZaJO;2
+Z24 VoL_Aa`[DXF<Vdo4aKmTDa2
+R4
+R16
+R17
+R18
+L0 29
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
+vtop_dual_vlg_vec_tst
+!i10b 1
+Z25 !s100 =Q^T3:SXK9BZR1:?=YZOU2
+Z26 Ik;bERieQ]F`bfd`TAmCM22
+Z27 Vk93;`g6FcVG09>8jmkkWF1
+R4
+R16
+R17
+R18
+Z28 L0 2662
+R8
+r1
+!s85 0
+31
+R19
+R20
+R21
+!s101 -O0
+R10
