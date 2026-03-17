@@ -22,7 +22,6 @@ module riscvsingle_dual (
   logic       Zero1, LT1;
 
   // === Controladores ===
-  // controller module ports: (op, funct3, funct7b5, funct7[6:0], Zero, LT, ResultSrc, MemWrite, PCSrc, ALUSrc, RegWrite, Jump, ImmSrc, ALUControl)
   controller c0(
       .op        (Instr0[6:0]),
       .funct3    (Instr0[14:12]),
