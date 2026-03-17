@@ -26,7 +26,7 @@ module datapath_dual(
 );
 
   // ======== PC logic ========
-  logic [31:0] PCF, PCNext, PCPlus4, PCPlus8, PCTarget; //PCF = PC atual, PCPlus4 = PCF + 4, PCPlus8 = PCF + 8, PCTarget = PCF + ImmExt0 → target do branch 
+  logic [31:0] PCF, PCNext, PCPlus4, PCPlus8, PCTarget; 
   assign PC = PCF;
 
   // ======== Holding register (Instr1) ========
