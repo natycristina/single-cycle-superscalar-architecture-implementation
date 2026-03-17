@@ -9,7 +9,7 @@
 <h2 align="center">🖼️ Architecture Diagram</h2>
 
 <p align="center">
-  <img src="Diagrama-Superescalar-Ciclo-Unico.png" width="700"/>
+  <img src="Diagrama Superescalar de Ciclo Unico.drawio.png" width="700"/>
 </p>
 
 ---
@@ -40,10 +40,22 @@ The architecture follows an **in-order execution model**, meaning:
 - Instructions are completed in program order
 - Two consecutive instructions can be executed simultaneously **only if there are no hazards**
 
-### ✔️ Conditions for Dual Execution:
-- No data hazards
-- No structural hazards
-- Independent instructions
+## ⚠️ Conditions for Dual Execution
+
+Two instructions can be issued in parallel (dual-issue) only when the following conditions are satisfied:
+
+- No **data hazards** between the instructions  
+- No **structural hazards** in shared resources  
+- Instructions must be **independent**  
+
+### 🚫 Restrictions
+
+- **Branch instructions** must be executed alone, since the outcome of the branch (taken or not taken) is not known at issue time  
+- **Memory access instructions**:
+  - Two memory operations cannot be issued simultaneously  
+  - The hazard unit prevents dual-issue when both instructions access memory  
+
+These constraints ensure correct program execution while avoiding pipeline conflicts and incorrect data usage.
 
 ---
 
