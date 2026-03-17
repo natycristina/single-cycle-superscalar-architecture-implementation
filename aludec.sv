@@ -1,7 +1,7 @@
 module aludec(input  logic       opb5,
               input  logic [2:0] funct3,
               input  logic       funct7b5, 
-              input  logic [6:0] funct7,    // ADICIONADO: funct7 completo
+              input  logic [6:0] funct7,    
               input  logic [1:0] ALUOp,
               output logic [3:0] ALUControl);
 
