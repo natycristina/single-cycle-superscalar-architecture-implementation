@@ -92,7 +92,7 @@ https://github.com/natycristina/single-cycle-superscalar-architecture-implementa
 2. Open the project file:
 
 ```bash
-Ic-teste-validando.qpf
+Risc-V-Superescalar.qpf
 ```
 
 3. Compile the project
